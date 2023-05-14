@@ -1,4 +1,5 @@
 from libs.levels.placeholder import placeholder
+from libs.levels.walkDownCorridor import walkDownCorridor
 from libs.base.core import Option, Stage
 
 
@@ -10,7 +11,7 @@ its wooden floor white wall, some artwork, plants, everything feels like... Home
 """
 
 __options = [
-    Option("Walk down the corridor.", placeholder),
+    Option("Walk down the corridor.", walkDownCorridor),
     Option("Yell for help.", placeholder),
 ]
 
