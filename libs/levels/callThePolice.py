@@ -1,9 +1,10 @@
 from libs.levels.placeholder import placeholder
+from libs.levels.turnAround import turnAround
 from libs.base.core import Stage, Option
 
 
 __story = """
-You picked the telephone up and proceed to dial 911.
+You picked the telephone up and proceed to call the police.
 ...
 ..
 .
@@ -14,7 +15,7 @@ You place the telephone back on the table then when you're just about to leave.
 """
 
 __options = [
-    Option("Turn around.", placeholder)
+    Option("Turn around.", turnAround)
 ]
 
 callThePolice = Stage(__story, __options)

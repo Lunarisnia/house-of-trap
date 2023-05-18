@@ -4,7 +4,7 @@ from libs.base.core import Option, Stage
 
 
 __story = """
-You walk down the corridor, you look around the wall, there is a family photo of 4, parents son and daughter, classic.
+You walk down the corridor, you look around the wall, there is a family photo of 4, parents son and daughter.
 They look happy, but you can't shake off the weird feeling you have. There is also a clock on the wall showing
 2 AM, but the clock seem to be broken, the needle doesnt move. You arrived in front of the window, you noticed there is
 a telephone on a table near the window to the left. To the right of you is a turn to a hallway with a couple of doors lining up,
